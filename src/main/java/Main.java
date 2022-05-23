@@ -15,7 +15,6 @@ public class Main {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-
         driver.get("https://google.com");
     }
 }
